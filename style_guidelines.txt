@@ -1,0 +1,114 @@
+Sovas Style and Coding Guidelines:
+
+
+Colour:
+* White for the header & button text in about, why sovas?, and pricing page. Black for the rest of the text
+
+
+* Black text for all of the homepage. 
+
+
+* Orange, red, yellow and pinkish brown gradient for the header picture
+
+
+Main color palette: 
+ - (Oranges: #f97850, #fb4d38)
+ - (Reds: #fb0c3a, #f90d1b, #fc1e54)
+ - (Yellow: #fc9c64)
+ - (Grey: #ececec)  
+ - (Black: #000000)
+ - (White: #ffffff)
+
+
+- Yellow (#fc9c64) illustrations across the site sourced from manypixels.co 
+
+
+ - Footer will include the company name (i.e. Sovas) and will include Contact, Terms & Conditions & Privacy Policy (also copyright but at a later date)
+
+
+- Contact will not lead anywhere, but clicking it will pop up a box with our email
+
+
+- Terms & Conditions and Privacy Policy will lead to their own respective webpages. These pages will be updated with CSS in our final deliverable. 
+
+
+Typography:
+* Epilogue, Sans serif font
+* https://fonts.google.com/specimen/Epilogue
+* Heading text size in the range of 27px - 100px
+* Paragraph text size in the range of 1.1rem - 3rem
+* The button text sizes will remain all across the site at 1.1rem. 
+
+
+Design:
+ 
+Home:
+Hero section: 
+* 100px heading in the hero section.
+* 1.3 rem paragraph. 
+* Gradient set-up on the right of the grid. 
+* Text overlaps the gradient to create a cool dimensional effect. 
+* Include 2 buttons aligned horizontally: One to jump to the bottom of the page to explain how Sovas works briefly, and another one to go straight to Why Sovas?
+
+
+How Sovas Works?: 
+* 85px heading 
+* 1.1rem paragraph. 
+* Grid with three steps of how sovas works. 
+* Three Yellow illustrations.
+
+
+About:
+Hero Section: 
+* 85px heading in the hero section - “It is our mission to make language learning a simpler task.”
+* Gradient background.
+
+
+Meet the Team: 
+* 80px heading - “Meet the founders”
+* Grid with four columns. Each section contains the memoji of one person. 
+* Name of each person is size 1.5rem. 
+
+
+
+Why Sovas?:
+Hero Section: 
+* 85px heading in the hero section - “Why Sovas?”
+* Gradient background.
+
+
+Main Section: 
+* 4 sections 
+* Each section has a grid with two columns. 
+* Zig-zag/alternating pattern to position text and images. 
+* One yellow illustration positioned opposite to text per image. 
+* Heading of 1.2em per section. 
+* Paragraph of 1.3rem per section. 
+* Large box with Call to Action at the bottom of the page to entice the prospect to sign up on a plan for Sovas. 
+
+
+Pricing Plans:
+Hero Section: 
+* 85px heading in the hero section - “Get started Today”
+* 1.5rem sub heading - “Select a plan below and get started on your 15 day free trial today.”
+* Gradient background.
+
+
+Main Section: 
+* Grid with three columns. 
+* Each column contains a pricing block with grey background color. 
+* Each pricing block contains heading of size 3rem
+* Each pricing block also contains the price of the plan which is of size 1.5rem
+* The features of each plan are paragraphs of size 20px
+* The first block is basic, which will be about 10 bucks a month, which will give the user some basic features such as 5 avatars, 2 languages they can learn (of their choosing), and regular priority email & live chat support
+* The next block is Standard will have to be quite a bit more expensive but also will have all the features, access to all avatars and languages, priority email support, and chat support
+* The next block is Commercial which will include everything that the Standard plan gives but could be used by multiple users at once via multi-user migration
+* Price will be decided on a case by case basis 
+
+
+Reviews:
+
+* Thought about having it at the bottom of the product features page, but there might be a better place for it somewhere else (currently omitted from the website but may come back)
+
+NOTE: As of October 24th, 2021 the home page is not responsive on Google Chrome (the image is shortened), but works properly on Safari. This is currently being investigated.
+

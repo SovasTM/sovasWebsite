@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="about.css" rel="stylesheet" type="text/css" />
+    <link href="site_styles.css" rel="stylesheet" type="text/css" >
+    <title>About</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+    <header>
+       
+    <header>
+      <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo"><i class="fas fa-brain"></i>SOVAS</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">   
+                    <a href="index.html" class="navbar__links"> HOME </a>
+                </li>
+                <li class="navbar__item">   
+                    <a href="about.html" class="navbar__links"> ABOUT </a>
+                </li>
+                <li class="navbar__item">   
+                    <a href="product_features.html" class="navbar__links"> WHY SOVAS? </a>
+                </li>
+                <li class="navbar__item">   
+                    <a href="pricing.html" class="navbar__links"> PRICING </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+
+
+
+  <main>
+    <div class="about_main_section">
+      <div class="about_main_container">
+        <h1 class = "about_heading">
+          It is our mission to make language learning a simpler task.
+        </h1>
+      </div>
+    </div>
+
+    <div class="meet_team_section">
+      <div class="meet_team_head_text_wrapper">
+        <h1 class = "meet_team_head_text">
+          Meet the founders.
+        </h1>
+      </div>
+      <div class="meet_team_row">
+        <div class="meet_team_grid">
+          <div class="team_column">
+            <img src="images/Jay.JPG" alt=""  class = "team_image_person">
+            <div class="team_name">Jay Ghosh</div>
+          </div>
+          <div class="team_column">
+            <img src="images/Tal.JPG" alt=""  class = "team_image_person">
+            <div class="team_name">Tal Musienko</div>
+          </div>
+          <div class="team_column">
+            <img src="images/Talia.JPG" alt=""  class = "team_image_person">
+            <div class="team_name">Talia Lee</div>
+          </div>
+          <div class="team_column">
+            <img src="images/Shaylin.JPG" alt="" class = "team_image_person">
+            <div class="team_name">Shaylin Thadani</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+    
+
+    <footer>
+      <div class="footer_section">
+        <div class="footer_container">
+          <h3 class = "footer_heading"> &copy; SOVAS </h3>
+          <div class="footer_grid">
+            <div class="popup" onclick="popup()"><u>Contact Us</u>
+               <span class="popuptext" id="myPopup">Email: hello@sovas.com</span>
+              </div>
+           <a href="ToS.html" class="footer_link">Terms & Conditions</a>
+           <a href="privacy_policy.html" class="footer_link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  <script src = "main.js"></script>
+  </body>
+</html>

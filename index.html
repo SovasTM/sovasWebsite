@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0" >
+    <meta name="description" content="Sovas is an A.I. that helps people increase language fluency faster by creating an immersive environment for them.">
+    <title>Sovas - Home</title>
+    <link href="home.css" rel="stylesheet" type="text/css" />
+    <link href="site_styles.css" rel="stylesheet" type="text/css" >
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600&display=swap" rel="stylesheet">
+
+
+    <!-- smooth scrolling JS -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+  </head>
+  <body>
+  
+ <header>
+      <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html" id="navbar__logo"><i class="fas fa-brain"></i>SOVAS</a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">   
+                    <a href="index.html" class="navbar__links"> HOME </a>
+                </li>
+                <li class="navbar__item">   
+                    <a href="about.html" class="navbar__links"> ABOUT </a>
+                </li>
+                <li class="navbar__item">   
+                    <a href="product_features.html" class="navbar__links"> WHY SOVAS? </a>
+                </li>
+                <li class="navbar__item">   
+                    <a href="pricing.html" class="navbar__links"> PRICING </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+
+  <main>
+  <div class="home_main">
+    <div class="home_container">
+      <div class="home_grid">
+          <div class="home_text_container">
+            <h1 class = "home_heading"> 
+              Language learning, 
+              <br>
+              simplified.
+            </h1>
+            <div class="home_para">
+              Sovas is an A.I. that helps people increase language fluency faster by creating an immersive environment for them.
+            </div>
+            <div class="button_wrapper">
+              <a href="product_features.html" class="button">WHY SOVAS?</a>
+              <a href="#hsw" class="button">HOW IT WORKS</a>
+            </div>
+          </div>
+          <img src="images/home_gradient.jpg" class = "home_image" alt="gradient">
+      </div>
+    </div>
+  </div>
+
+
+  <div class="hsw_main_section" id = "hsw">
+    <div class="hsw_main_container">
+      <h1 class="home_heading">
+        How Sovas Works.
+      </h1>
+        <div class="hsw_grid_container">
+          <div class="hsw_grid">
+            
+            <div class="hsw_step">
+              <img src="images/avatar.png" alt="" width = "250" class = "hsw_image">
+              <h4 class = "hsw_heading" >
+                Select your AI.
+              </h4>
+              <p class = "hsw_para">
+                Choose from our assortment of avatars or create your own. You can even choose your virtual environment to imitate a cultivating scenery.  
+              </p>
+            </div>
+            
+            <div class="hsw_step">
+              <img src="images/select language.png" alt="" width = "250" class = "hsw_image">
+              <h4 class = "hsw_heading" >
+                Select the language.
+              </h4>
+              <p class = "hsw_para">
+                Select the language you want to learn. You need to have a basic understanding of this language and its syntax. 
+              </p>
+            </div>
+
+            <div class="hsw_step">
+              <img src="images/start learning.png" alt="" width = "250" class = "hsw_image">
+              <h4 class = "hsw_heading" >
+                Start speaking.
+              </h4>
+              <p class = "hsw_para">
+                Select a topic of conversation and start speaking. The A.I. will do all of the heavy lifting by adjusting the conversation to ensure smooth learning.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </main>
+
+  <footer>
+      <div class="footer_section">
+        <div class="footer_container">
+          <h3 class = "footer_heading"> &copy; SOVAS </h3>
+          <div class="footer_grid">
+            <div class="popup" onclick="popup()"><u>Contact Us</u>
+               <span class="popuptext" id="myPopup">Email: hello@sovas.com</span>
+              </div>
+           <a href="ToS.html" class="footer_link">Terms & Conditions</a>
+           <a href="privacy_policy.html" class="footer_link">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+  <script src = "main.js"></script>
+  </body>
+</html>
